@@ -78,3 +78,32 @@ body {
     height: 10%;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid rgb(88, 136, 148);
+    border-radius: 5px; 
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: #495ee5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #23118b;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
