@@ -1,5 +1,5 @@
 body {
-    font-family: 'Verdana', 'Arial', sans-serif;
+    font-family: "Lucida Console", Courier, monospace;
   }
   
   header {
@@ -14,8 +14,8 @@ body {
   
   }
   
-  #navigation {
-    background-color: #417cf2;
+  #nav {
+    background-color: #0051f3;
     overflow: hidden;
     width: 100%;
     margin: 0;
@@ -24,7 +24,7 @@ body {
     float: left;
   }
   
-  #navigation ul {
+  #nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,20 +33,20 @@ body {
     float: left;
   }
   
-  #navigation ul li {
+  #nav ul li {
     float: left;
     position: relative;
     right: 50%;
     display: block;
   }
   
-  #navigation ul li a {
+  #nav ul li a {
     display: block;
-    padding: 10px 20px;
+    padding: 15px 25px;
     color: #fff;
     text-decoration: none;
   }
   
-  #navigation ul li a:hover {
+  #nav ul li a:hover {
     background-color: #1a3469;
   }
