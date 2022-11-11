@@ -50,3 +50,31 @@ body {
   #nav ul li a:hover {
     background-color: #1a3469;
   }
+
+  footer {
+    position: fixed;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    height: 5%;
+}
+
+#b-nav-isud {
+    text-align: center;
+    font-family: Mont-Extra-Bold, serif;
+    font-size: var(--step-up-two-half);
+}
+#fb {
+    padding-right: 50px;
+}
+
+#links {
+    text-align: center;
+}
+
+#links img {
+    margin-top: 15px;
+    width: 10%;
+    height: 10%;
+}
+
