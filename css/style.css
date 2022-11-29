@@ -1,8 +1,7 @@
 body {
     font-family: "Lucida Console", Courier, monospace;
   }
-  
-  header {
+   header {
     margin-left: auto;
     margin-right: auto;
     width: 97%;
@@ -13,8 +12,7 @@ body {
     justify-content: center;
   
   }
-  
-  #nav {
+   #nav {
     background-color: #0051f3;
     overflow: hidden;
     width: 100%;
@@ -23,8 +21,7 @@ body {
     position: relative;
     float: left;
   }
-  
-  #nav ul {
+   #nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -32,33 +29,28 @@ body {
     left: 50%;
     float: left;
   }
-  
-  #nav ul li {
+   #nav ul li {
     float: left;
     position: relative;
     right: 50%;
     display: block;
   }
-  
-  #nav ul li a {
+   #nav ul li a {
     display: block;
     padding: 15px 25px;
     color: #fff;
     text-decoration: none;
   }
-  
-  #nav ul li a:hover {
+   #nav ul li a:hover {
     background-color: #1a3469;
   }
-
-  footer {
+ footer {
     position: fixed;
     bottom: 150px;
     left: 0;
     right: 0;
     height: 5%;
 }
-
 #b-nav-isud {
     text-align: center;
     font-family: Mont-Extra-Bold, serif;
@@ -67,17 +59,14 @@ body {
 #fb {
     padding-right: 50px;
 }
-
 #links {
     text-align: center;
 }
-
 #links img {
     margin-top: 15px;
     width: 10%;
     height: 10%;
 }
-
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px; 
@@ -88,7 +77,6 @@ input[type=text], select, textarea {
     margin-bottom: 15px;
     resize: vertical
   }
-  
   input[type=submit] {
     background-color: #495ee5;
     color: white;
@@ -97,13 +85,23 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
   }
-  
   input[type=submit]:hover {
     background-color: #23118b;
   }
-  
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
   }
+.bottom-list {
+    background: blue;
+	bottom: 0;
+	position: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+	overflow: hidden;
+	list-style-type: none;
+	width: 100%;
+}
