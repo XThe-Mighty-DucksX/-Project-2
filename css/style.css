@@ -105,3 +105,23 @@ input[type=text], select, textarea {
 	list-style-type: none;
 	width: 100%;
 }
+.bottom-item a {
+	display: block;
+    font-size: 1.30em;
+    text-decoration: none;
+	padding: 0.30em 2.2000em;
+    color: black;
+    text-align: center;
+}
+.bottom-item li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: blue;
+}
+.bottom-item a:hover {
+	background-color: #000099;
+}
+.bottom-item a:hover {
+    background-color: #000099;
+}
