@@ -125,3 +125,12 @@ input[type=text], select, textarea {
 .bottom-item a:hover {
     background-color: #000099;
 }
+#fish{
+	top: 120px;
+}
+
+#fish2{
+	top: 260px;
+	animation-delay: 12s;
+	-webkit-animation-delay: 12s;
+}
