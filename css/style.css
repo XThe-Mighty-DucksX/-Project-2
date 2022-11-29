@@ -243,7 +243,6 @@ label{
 	width: 566px;
 	padding-top: 2px;
 }
-
 .formgroup{
 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif');	
 }
@@ -253,4 +252,21 @@ label{
 .formgroup-error{
 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
 	color: red;
+}
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+body, html{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Sniglet', cursive;
+}
+h1{
+	font-weight: normal;
+	font-size: 4em;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 500px;
+	color: #F90;
+	text-align: center;
 }
