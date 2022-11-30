@@ -11,17 +11,28 @@ header {
   text-align: center;
   align-items: center;
   justify-content: center;
-
 }
 
-.content{
+.slides {
   display: block;
   margin-left: 3%;
   margin-right: 3%;
 }
 
+.slides ul {
+  list-style-type: none;	
+}
+
+.list ul {
+  list-style-type: circle;	
+}
+
+p {
+  position: relative;
+}
+
 img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   border-radius: 25px;
   padding: 5px 5px;	
@@ -65,10 +76,17 @@ img {
 }
 
 @media screen and (min-width: 600px) {
-
+  .slides {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 @media screen and (min-width: 960px) {
-
+  .slides {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
+
 
