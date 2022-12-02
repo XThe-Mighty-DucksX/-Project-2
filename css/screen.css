@@ -1,7 +1,9 @@
 /* modular scale used: https://www.modularscale.com/?1,1100,12&em&1.3 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Oswald&family=Poppins&display=swap');
+
 body {
-  font-family: 'Verdana', 'Arial', sans-serif;
-  font-size: calc(12px + 1vw); /* Responsive scaling text/font size */
+  font-family: 'Poppins', 'Arial', sans-serif;
+  font-size: calc(12px + 0.75vw); /* Responsive scaling text/font size */
 }
 
 h1 { font-size: 1.912em; }
@@ -90,7 +92,6 @@ img {
   background-color: #417cf2;
   color: white;
   padding: 10px 20px;
-  font-size: calc(12px + 1vw); /* Responsive scaling text/font size */
   border: none;
   cursor: pointer;
 }
@@ -268,7 +269,6 @@ input, textarea{
 	border-radius: 20px;
 	outline: none;
 	padding: 10px;
-	font-family: 'Sniglet', cursive;
 	font-size: 1em;
 	color: #676767;
 	transition: border 0.5s;
@@ -290,20 +290,19 @@ textarea{
 	resize: none; 
 	overflow: auto;
 }
-input[type="submit"]{
+button[type="submit"]{
 	background-color: #F90;
-	color: white;
+	color: black;
 	height: 50px;
 	cursor: pointer;
 	margin-top: 30px;
 	font-size: 1.29em;
-	font-family: 'Sniglet', cursive;
 	-webkit-transition: background-color 0.5s;
 	-moz-transition: background-color 0.5s;
 	-o-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 }
-input[type="submit"]:hover{
+button[type="submit"]:hover{
 	background-color: #e58f0e;
 	
 }
