@@ -228,7 +228,7 @@ label{
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: blue;
     padding: 20px;
 }
 .bottom-list {
@@ -245,9 +245,9 @@ label{
 }
 .bottom-item {
 	display: block;
-    font-size: 1.30em;
+    font-size: 1.25em;
     text-decoration: none;
-	padding: 0.30em 2.2000em;
+	padding: 0.68em 1.56em;
     color: black;
     text-align: center;
 }
