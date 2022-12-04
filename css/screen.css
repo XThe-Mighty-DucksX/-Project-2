@@ -366,3 +366,24 @@ label{
 	max-height: 750px;
   }
 }
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: #6465b6;
+  text-align: center;
+  line-height: 200px;
+  margin: 50em 0;
+  margin-left: calc(50% - 100px);
+  transition: transform 0.5s, opacity 0.5s;
+  color: #fff;
+  font-weight: bold;
+}
+.box.left{
+  transform: translateX(-200px);
+  opacity: 0;
+}
+.box.right{
+  transform: translateX(200px);
+  opacity: 0;
+  background-color: #473BF0;
+}
