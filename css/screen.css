@@ -145,7 +145,7 @@ img {
 }
 footer {
     position: relative;
-    bottom: 150px;
+    bottom: 100px;
     left: 0;
     right: 0;
     height: 5%;
@@ -228,11 +228,11 @@ label{
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: white;
     padding: 20px;
 }
 .bottom-list {
-    background: blue;
+    background: #417cf2;
 	bottom: 0;
 	position: relative;
     margin: 0;
@@ -243,11 +243,11 @@ label{
 	list-style-type: none;
 	width: 100%;
 }
-.bottom-item a {
+.bottom-item {
 	display: block;
-    font-size: 1.30em;
+    font-size: 0.3em;
     text-decoration: none;
-	padding: 0.30em 2.2000em;
+	padding: 2em 5em;
     color: black;
     text-align: center;
 }
@@ -255,12 +255,12 @@ label{
   float: left;
   margin: 0;
   padding: 0;
-  background: blue;
+  background: #417cf2;
 }
-.bottom-item a:hover {
+.bottom-item:hover {
 	background-color: #000099;
 }
-.bottom-item a:hover {
+.bottom-item:hover {
     background-color: #000099;
 }
 /* Animation webkit */
