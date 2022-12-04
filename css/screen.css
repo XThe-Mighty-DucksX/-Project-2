@@ -245,9 +245,9 @@ label{
 }
 .bottom-item {
 	display: block;
-    font-size: 1.25em;
+    font-size: 0.3em;
     text-decoration: none;
-	padding: 0.68em 1.56em;
+	padding: 2em 5em;
     color: black;
     text-align: center;
 }
