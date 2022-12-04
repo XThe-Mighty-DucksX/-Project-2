@@ -45,4 +45,7 @@ function validateform(){
     alert("Please enter your message");  
   }
 }
-
+//Scroll Trigger
+document.addEventListener('DOMContentLoaded', function(){
+	ScrollTrigger.init();
+  });
