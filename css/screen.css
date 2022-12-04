@@ -243,7 +243,7 @@ label{
 	list-style-type: none;
 	width: 100%;
 }
-.bottom-item a {
+.bottom-item {
 	display: block;
     font-size: 1.30em;
     text-decoration: none;
@@ -257,10 +257,10 @@ label{
   padding: 0;
   background: blue;
 }
-.bottom-item a:hover {
+.bottom-item:hover {
 	background-color: #000099;
 }
-.bottom-item a:hover {
+.bottom-item:hover {
     background-color: #000099;
 }
 /* Animation webkit */
